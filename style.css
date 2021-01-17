@@ -9,11 +9,13 @@
 body
 {
     background-color: #f7fbfc;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .oops
 {
     font-family: 'Cooper Black Regular';
+    font-size: 5em;
 }
 
 #logo
