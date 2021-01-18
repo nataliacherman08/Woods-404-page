@@ -6,8 +6,8 @@ In this repository called *Woods-404-page*, I made an Error Page for Woods using
 [Error 404](https://nataliacherman08.github.io/Woods-404-page/)
 
 ## Resources
-* [Grid Garden](http://cssgridgarden.com/#fr)
-* [CSS rules](https://www.w3schools.com/css/default.asp)
-* [Grids tutorial](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [CSS3 animations](https://www.w3schools.com/css/css3_animations.asp)
+* [animate](https://animate.style/)
+* [CSS positioning](https://learnlayout.com/position.html)
 
 ![Cat Error 404](https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif)
