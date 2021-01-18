@@ -8,7 +8,7 @@
 
 body
 {
-    background-color: #f7fbfc;
+    background: linear-gradient(-180deg, rgb(246, 251, 255), rgb(181, 218, 255));
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -21,4 +21,16 @@ body
 #logo
 {
     width: 100px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box
+{
+    text-align: center;
 }
