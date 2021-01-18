@@ -15,7 +15,12 @@ body
 .oops
 {
     font-family: 'Cooper Black Regular';
-    font-size: 4em;
+    font-size: 3em;
+}
+
+.error
+{
+    width: 500px;
 }
 
 #logo
