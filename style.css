@@ -46,7 +46,8 @@ h1
     font-size: 1em;
     font-family: 'Open Sans ExtraBold';
     cursor: grabbing;
-    padding: 10px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
     box-shadow: 5px 5px 5px #ccc;
     transform: scale(1);
     transition: transform 400ms;
@@ -65,7 +66,6 @@ a
 
 a:hover
 {
-    background-color:#000;
-    color:#fff;
+    color:#000;
     cursor: grabbing;
 }
