@@ -9,23 +9,31 @@
     font-weight: normal;
 }
 
+@font-face
+{
+    font-family: 'BioRhyme';
+    src:url('fonts/biorhyme/BioRhyme-Bold.ttf') format('ttf'),
+        url('fonts/biorhyme/BioRhyme-ExtraBold.ttf') format('ttf'),
+        url('fonts/biorhyme/BioRhyme-ExtraLight.ttf') format('ttf'),
+        url('fonts/biorhyme/BioRhyme-Light.ttf') format('ttf'),
+        url('fonts/biorhyme/BioRhyme-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
 body
 {
     background-color: #fff;
-    font-family: 'Space Mono';
+    font-family: 'BioRhyme';
 }
 /**FLEXBOX**/
 #container
 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: space-around;
 }
 
-.box
-{
-    text-align: center;
-}
 
 /**BUTTON**/
 .button
