@@ -1,0 +1,36 @@
+@font-face 
+{   
+    src: url('fonts/COOPBL.woff') format('woff');
+    font-family: 'Cooper Black Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+body
+{
+    background: linear-gradient(-180deg, rgb(246, 251, 255), rgb(181, 218, 255));
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.oops
+{
+    font-family: 'Cooper Black Regular';
+    font-size: 5em;
+}
+
+#logo
+{
+    width: 100px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box
+{
+    text-align: center;
+}
