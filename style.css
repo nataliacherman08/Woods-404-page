@@ -32,10 +32,11 @@ p
 
 }
 
-.oops
+h1
 {
-    font-size: 4em;
+    font-size: 4.5em;
 }
+	
 
 /**BUTTON**/
 .button
@@ -46,9 +47,7 @@ p
     font-family: 'Open Sans ExtraBold';
     cursor: grabbing;
     padding: 10px 10px;
-    border-radius: 5em;
-    border: 1px solid #b5daff;
-    box-shadow: 5px 5px 5px #000;
+    box-shadow: 5px 5px 5px #ccc;
     transform: scale(1);
     transition: transform 400ms;
 }
@@ -56,8 +55,6 @@ p
 .button:hover
 {
     transform: scale(1.15);
-    background-color:#000;
-    color:#fff;
 }
 
 a
