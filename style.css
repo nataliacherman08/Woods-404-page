@@ -1,48 +1,50 @@
-@font-face
-{
-    font-family: 'Space Mono';
-    src:url('fonts/spacemono/SpaceMono-Bold.ttf') format('ttf'),
-        url('fonts/spacemono/SpaceMono-BoldItalic.ttf') format('ttf'),
-        url('fonts/spacemono/SpaceMono-Italic.ttf') format('ttf'),
-        url('fonts/spacemono/SpaceMono-Regular.ttf') format('ttf');
-    font-style: normal;
+@font-face {
+    font-family: 'Open Sans ExtraBold';
+    src: url('font/OpenSans-ExtraBold-webfont.eot');
+    src: url('font/OpenSans-ExtraBold-webfont.svg') format('svg'),
+         url('font/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('font/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('font/OpenSans-Regular-webfont.ttf') format('woff');
     font-weight: normal;
-}
+    font-style: normal;
 
-@font-face
-{
-    font-family: 'BioRhyme';
-    src:url('fonts/biorhyme/BioRhyme-Bold.ttf') format('ttf'),
-        url('fonts/biorhyme/BioRhyme-ExtraBold.ttf') format('ttf'),
-        url('fonts/biorhyme/BioRhyme-ExtraLight.ttf') format('ttf'),
-        url('fonts/biorhyme/BioRhyme-Light.ttf') format('ttf'),
-        url('fonts/biorhyme/BioRhyme-Regular.ttf') format('ttf');
-    font-style: normal;
-    font-weight: normal;
 }
 
 body
 {
     background-color: #fff;
-    font-family: 'BioRhyme';
+    font-family: 'Open Sans ExtraBold';
 }
 /**FLEXBOX**/
 #container
 {
     display: flex;
     flex-direction: row;
-    align-items: space-around;
+    align-items: center;
+    justify-content: center;
 }
 
+/**HEADER**/
+p
+{
+    font-size: 1.3em;
+    text-align: justify;
+
+}
+
+.oops
+{
+    font-size: 4em;
+}
 
 /**BUTTON**/
 .button
 {
-    background: #aac7ff;
+    background: #fff;
     color: #000;
     font-size: 1em;
-    font-family: 'Cooper Black Regular';
-    cursor: pointer;
+    font-family: 'Open Sans ExtraBold';
+    cursor: grabbing;
     padding: 10px 10px;
     border-radius: 5em;
     border: 1px solid #b5daff;
@@ -54,6 +56,8 @@ body
 .button:hover
 {
     transform: scale(1.15);
+    background-color:#000;
+    color:#fff;
 }
 
 a
@@ -64,5 +68,7 @@ a
 
 a:hover
 {
-    color:#b5daff;
+    background-color:#000;
+    color:#fff;
+    cursor: grabbing;
 }
