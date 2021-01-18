@@ -43,6 +43,7 @@ body
     cursor: pointer;
     padding: 10px 10px;
     border-radius: 5em;
+    box-shadow: 5px 5px 5px #000;
     transform: scale(1);
     transition: transform 400ms;
 }
@@ -56,4 +57,9 @@ a
 {
     text-decoration: none;
     color: #000; 
+}
+
+a:hover
+{
+    color:#b5daff;
 }
