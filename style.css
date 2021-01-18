@@ -1,7 +1,18 @@
 @font-face 
 {   
-    src: url('fonts/COOPBL.woff') format('woff');
     font-family: 'Cooper Black Regular';
+    src: url('fonts/cooper/COOPBL.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face
+{
+    font-family: 'Action Man';
+    src:url('fonts/action/Action_Man-webfont.eot') format('eot'),
+        url('fonts/action/Action_Man-webfont.svg') format('svg'),
+        url('fonts/action/Action_Man-webfont.ttf') format('ttf'),
+        url('fonts/action/Action_Man-webfont.woff') format('woff');
     font-style: normal;
     font-weight: normal;
 }
@@ -9,7 +20,7 @@
 body
 {
     background: linear-gradient(-180deg, rgb(246, 251, 255), rgb(181, 218, 255));
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'Action Man';
 }
 
 .oops
@@ -45,9 +56,11 @@ body
     background: #f7e23b;
     color: #000;
     font-size: 1em;
+    font-family: 'Cooper Black Regular';
     cursor: pointer;
     padding: 10px 10px;
     border-radius: 5em;
+    border: 1px solid #b5daff;
     box-shadow: 5px 5px 5px #000;
     transform: scale(1);
     transition: transform 400ms;
