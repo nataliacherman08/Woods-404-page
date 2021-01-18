@@ -10,4 +10,4 @@ In this repository called *Woods-404-page*, I made an Error Page for Woods using
 * [CSS rules](https://www.w3schools.com/css/default.asp)
 * [Grids tutorial](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-![Multipass](https://media.giphy.com/media/uIGHPjEfdc0Ni/giphy.gif)
+![Multipass](https://media.giphy.com/media/WVYksxODMY4vK/giphy.gif)
