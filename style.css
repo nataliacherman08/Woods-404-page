@@ -56,8 +56,7 @@ h2
 /**BUTTON**/
 .button
 {
-    background: #fff;
-    color: #000;
+    background: #03112a;
     font-size: 1em;
     font-family: 'Open Sans ExtraBold';
     cursor: pointer;
@@ -75,7 +74,7 @@ h2
 a
 {
     text-decoration: none;
-    color: #000; 
+    color: #fff; 
 }
 
 a:hover
