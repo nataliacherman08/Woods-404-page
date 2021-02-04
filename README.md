@@ -10,4 +10,4 @@ In this repository called *Woods-404-page*, I made an Error Page for Woods using
 * [animate](https://animate.style/)
 * [CSS positioning](https://learnlayout.com/position.html)
 
-![Cat Error 404](https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif)
+![Big Lebowski](https://media.giphy.com/media/yk8tRCZHCV0qY/giphy.gif)
