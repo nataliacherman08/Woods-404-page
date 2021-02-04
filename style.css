@@ -1,10 +1,8 @@
 @font-face {
-    font-family: 'Open Sans ExtraBold';
-    src: url('font/OpenSans-ExtraBold-webfont.eot');
-    src: url('font/OpenSans-ExtraBold-webfont.svg') format('svg'),
-         url('font/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
-         url('font/OpenSans-ExtraBold-webfont.woff') format('woff'),
-         url('font/OpenSans-Regular-webfont.ttf') format('woff');
+    font-family: 'Oxygen';
+    src: url('font/Oxygen-Bold.ttf');
+    src: url('font/Oxygen-Light.ttf'),
+         url('font/Oxygen-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -14,7 +12,7 @@ body
 {
     background-image: url('assets/wp6501320.jpg');
     background-size: cover;
-    font-family: 'Open Sans ExtraBold';
+    font-family: 'Oxygen';
     color: #fff;
 }
 
@@ -56,6 +54,7 @@ h1
 .button
 {
     background: #03112a;
+    font-family: 'Oxygen';
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 10px;
