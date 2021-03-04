@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1609857070830-59da5b1d17cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  font-family: "Oxygen Mono";
+  color: #E7E9E9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 6em;
+}
+
+section {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+/*# sourceMappingURL=style.css.map */
