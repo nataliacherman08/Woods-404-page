@@ -1,6 +1,6 @@
 # Woods-404-page
 ## Content
-In this repository called *Woods-404-page*, I made an Error Page for Woods using the Flexbox CSS system to visually structure my page.
+In this repository, you can find my version of *404 Error Woods' Page*.
 
 ## Link
 [Error 404](https://nataliacherman08.github.io/Woods-404-page/)
